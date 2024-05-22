@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investimentos</title>
+    <style>
+          *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        [pagina="investimentos"]{
+            display: flex;
+            flex-direction: row;
+            margin-top: 100px;
+            align-items: center;
+            min-height: 40%;
+            max-height: 40%;
+        }
+        [pagina="investimentos"] div{
+            word-wrap: break-word;
+            width: 70%;
+        }
+        h1{
+            text-align: center;
+            color: black;
+            margin-top: 100px;
+        }
+
+        img{
+            min-width: 350px;
+            max-width: 350px;
+            min-height: 250px;
+            max-height: 250px;
+            margin-right: 10px;
+        }
+        [navegacao]{
+            position: absolute;
+            top: 0;
+            display: flex;
+            width: 100%;
+            background: rgb(49, 49, 49);
+            height: 8%;
+
+        }
+        ul{
+            display: flex;
+        }
+        ul a{
+            color: white;
+            text-decoration: none;
+        }
+        ul li{
+
+            list-style: none;
+            margin-right: 10px;
+        }
+        nav{
+            width: 100%;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+            margin-left: 250px;
+            margin-right: 150px;
+        }
+        input{
+            outline: none;
+            margin: none;
+            border: none;
+        }
+        footer{
+            position: absolute;
+            bottom: 0;
+            background: black;
+            width: 100%;
+            height: 6%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        INVESTIMENTOS
+    </h1>
+    <div pagina="investimentos">
+        <img src="bitcoin.jpeg" alt="bitcoin">
+        <div>Investir em Bitcoin pode ser uma escolha atraente para muitos investidores. Primeiro, o Bitcoin é frequentemente comparado ao “ouro digital”, pois tem se mostrado uma reserva de valor confiável. Durante períodos inflacionários, ter um ativo que mantém seu valor ao longo do tempo é crucial, e o Bitcoin tem demonstrado essa característica. Além disso, os retornos expressivos ao longo da última década são impressionantes. Mesmo pequenos investimentos geraram ganhos substanciais para investidores de longo prazo. A autocustódia é outro ponto a favor do Bitcoin: você pode ser o único responsável por seus ativos, sem depender de bancos ou terceiros. Sua descentralização e segurança também são atrativos, tornando-o resistente a manipulações e oferecendo acesso sem permissão a qualquer pessoa. No entanto, lembre-se de que, como qualquer investimento, o Bitcoin também possui riscos, e é importante fazer sua própria pesquisa antes de investir.</div>
+    </div>
+    <div navegacao="">
+        <nav>
+            <input type="search" placeholder="pesquisar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">INVESTIMENTOS</a></li>
+                <li><a href="future.html">NOTÍCIAS</a></li>
+                <li><a href="insights.html">INSIGHTS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer>
+        <div> © 2024 todos os direitos reservados</div>
+    </footer>
+    
+</body>
+</html>
